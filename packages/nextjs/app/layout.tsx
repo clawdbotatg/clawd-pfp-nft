@@ -8,8 +8,8 @@ import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 
 export const metadata = getMetadata({
-  title: 'Scaffold-ETH 2 App',
-  description: 'Built with 🏗 Scaffold-ETH 2'
+  title: '🦞 Clawd PFP — Mint NFTs, Burn CLAWD',
+  description: 'PFP NFT collection on Base. Pay ETH to mint, matching CLAWD gets burned. Fund development without selling tokens.'
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
